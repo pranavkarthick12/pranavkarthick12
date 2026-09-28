@@ -9,7 +9,7 @@
 
 <br/>
 
-<img src="C:\Users\User\Downloads\files\avatar.png" width="170" alt="Pranav Karthick S K"/>
+<img src="assets/avatar.png" width="170" alt="Pranav Karthick S K"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=pranavkarthick12&label=VISITORS&color=24c6dc&style=for-the-badge)
 ![Location](https://img.shields.io/badge/Coimbatore-India-302b63?style=for-the-badge&logo=googlemaps&logoColor=white)
