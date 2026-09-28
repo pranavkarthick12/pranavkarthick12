@@ -1,228 +1,303 @@
-👋 Hey, I'm Pranav Karthick S K
+<!-- ═══════════════ HEADER ═══════════════ -->
+<div align="center">
 
-"Creative Developer | Full-Stack Developer | UI/UX Enthusiast"
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24c6dc&height=230&section=header&text=Pranav%20Karthick%20S%20K&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Design%20%E2%86%92%20Build%20%E2%86%92%20Test%20%E2%86%92%20Improve&descAlignY=58&descSize=18" width="100%"/>
 
-«I turn ideas into clean, interactive, and meaningful digital experiences.»
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=24C6DC&center=true&vCenter=true&width=700&lines=I+turn+ideas+into+interactive+experiences;Creative+Developer+%7C+Full-Stack+Developer;UI%2FUX+Enthusiast+%7C+Accessibility+Advocate;I+break+things+(professionally)+so+users+don't+have+to" alt="Typing SVG"/>
+</a>
 
-I'm a B.E. Electronics & Communication Engineering student at Sri Eshwar College of Engineering, Coimbatore, passionate about building modern web experiences, designing intuitive interfaces, and solving real-world problems through technology.
+<br/>
 
-Currently working as a Software Quality & Accessibility Engineer Intern at Hudsmer Business Solutions, where I work on web application testing, troubleshooting, debugging, accessibility, and defect analysis.
+<img src="./assets/avatar.png" width="170" alt="Pranav Karthick S K"/>
 
-I enjoy combining creativity, design, and development to transform ideas into polished digital products.
+![Profile Views](https://komarev.com/ghpvc/?username=pranavkarthick12&label=VISITORS&color=24c6dc&style=for-the-badge)
+![Location](https://img.shields.io/badge/Coimbatore-India-302b63?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Open%20to%20Opportunities-2ea44f?style=for-the-badge)
 
----
+</div>
 
-✨ What I Do
+<br/>
 
-🎨 UI/UX Design
-💻 Creative Development
-🌐 Full-Stack Development
-⚛️ Frontend Development
-🔧 Backend & REST APIs
-🧪 Software Quality & Accessibility
-🗄️ Database Development
-🧩 Problem Solving & DSA
+<!-- ═══════════════ BOOT SCREEN ═══════════════ -->
+```console
+pranav@portfolio:~$ whoami
+> Pranav Karthick S K  ·  ECE undergrad @ Sri Eshwar College of Engineering
 
----
+pranav@portfolio:~$ cat mission.txt
+> "I turn ideas into clean, interactive, and meaningful digital experiences."
 
-🛠️ My Tech Stack
+pranav@portfolio:~$ ./currently.sh
+> 🔍 Breaking & fixing web apps as Software Quality & Accessibility Intern @ Hudsmer
+> 🎨 Designing interfaces in Figma before writing a single line of code
+> 🧩 Grinding DSA, one LeetCode problem at a time
 
-💻 Programming
+pranav@portfolio:~$ echo $PHILOSOPHY
+> Useful → Intuitive → Accessible → Beautiful → Memorable
+```
 
-"C++" "Python" "Java" "JavaScript"
+<br/>
 
-🌐 Web Development
+<!-- ═══════════════ ABOUT ═══════════════ -->
+## 🧭 &nbsp;The Story So Far
 
-"React.js" "Node.js" "HTML" "CSS" "REST APIs"
+I started in **Electronics & Communication**, fell for the web, and never looked back. Circuits taught me how systems *behave*; design taught me how people *feel*. Now I build where the two meet, shipping products that work reliably **and** feel good to use.
 
-🎨 Design & Creative
+Most developers ask *"does it work?"*
+I ask **"does it work for everyone, and would anyone enjoy it?"**
 
-"Figma" "UI/UX Design" "Responsive Design" "Prototyping"
+<br/>
 
-🗄️ Databases
+<!-- ═══════════════ WORKFLOW DIAGRAM ═══════════════ -->
+## 🔁 &nbsp;How I Build
 
-"MongoDB" "MySQL"
+```mermaid
+flowchart LR
+    A([🎨 Design Thinking<br/>Understand the user]) --> B([🧩 Creative Dev<br/>Shape the idea])
+    B --> C([💻 Engineering<br/>Build it solid])
+    C --> D([🧪 Quality<br/>Test & refine])
+    D -.->|feedback loop| A
+    style A fill:#302b63,stroke:#24c6dc,color:#fff
+    style B fill:#302b63,stroke:#24c6dc,color:#fff
+    style C fill:#302b63,stroke:#24c6dc,color:#fff
+    style D fill:#302b63,stroke:#24c6dc,color:#fff
+```
 
-🧪 Quality & Development
+<br/>
 
-"Selenium" "Docker" "Git" "GitHub"
+<!-- ═══════════════ SKILLS ═══════════════ -->
+## ⚔️ &nbsp;Skill Tree
 
-☁️ Cloud & Tools
+<table>
+<tr>
+<td width="180"><b>🧠 Languages</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=cpp,py,java,js&theme=dark"/>
+</td>
+</tr>
+<tr>
+<td><b>🌐 Web</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=react,redux,nodejs,html,css,flask,spring&theme=dark"/>
+</td>
+</tr>
+<tr>
+<td><b>🎨 Design</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=figma&theme=dark"/> &nbsp;<sub><code>UI/UX</code> · <code>Prototyping</code> · <code>Responsive Design</code></sub>
+</td>
+</tr>
+<tr>
+<td><b>🗄️ Databases</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql&theme=dark"/>
+</td>
+</tr>
+<tr>
+<td><b>🧪 Quality & DevOps</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=selenium,docker,git,github&theme=dark"/>
+</td>
+</tr>
+<tr>
+<td><b>☁️ Cloud & Tools</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=aws,vscode&theme=dark"/>
+</td>
+</tr>
+</table>
 
-"AWS" "VS Code" "Flask"
+<br/>
 
----
+<!-- ═══════════════ PROJECTS ═══════════════ -->
+## 🚀 &nbsp;Quest Log: Featured Projects
 
-🚀 Featured Projects
+<table>
+<tr>
+<td width="50%" valign="top">
 
-🤖 AI-Powered Interview Assistant
+### 🤖 AI-Powered Interview Assistant
+*Practice interviews that feel real.*
 
-A modern interview simulation platform focused on creating a structured and interactive interview experience.
+A structured interview simulator with two worlds: one for the **interviewee**, one for the **interviewer**.
 
-Highlights
+- 📄 Parses your resume to start the session
+- ⏱️ Timed rounds that add real pressure
+- 📊 Automated scoring, instantly
+- 👥 Dual-role dashboards
+- ⚛️ Redux Toolkit state architecture
 
-- 📄 Resume parsing
-- ⏱️ Timed interview experience
-- 📊 Automated scoring
-- 👥 Dual-role interfaces
-- 🎨 Interactive and responsive UI
-- ⚛️ Redux-based application architecture
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Redux](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white)
+![AntDesign](https://img.shields.io/badge/Ant_Design-0170FE?style=flat-square&logo=antdesign&logoColor=white)
 
-Tech: "React" "Redux Toolkit" "Ant Design" "Local Storage"
+[![Repo](https://img.shields.io/badge/View_Code-302b63?style=for-the-badge&logo=github)](INTERVIEW_ASSISTANT_REPO_URL)
+[![Live](https://img.shields.io/badge/Live_Demo-24c6dc?style=for-the-badge&logo=vercel&logoColor=black)](INTERVIEW_ASSISTANT_LIVE_URL)
 
----
+</td>
+<td width="50%" valign="top">
 
-🛡️ PhishSiren
+### 🛡️ PhishSiren
+*Your inbox's personal bodyguard.*
 
-A web application designed to help users identify potentially harmful emails through automated email classification.
-
-Highlights
+Connects to Gmail, scans incoming mail, and **flags phishing in real time** using an ML classifier.
 
 - 📧 Gmail API integration
-- 🔐 OAuth 2.0 authentication
-- 🌐 Web-based interface
-- 🗄️ MongoDB data storage
-- 📊 Prediction history
+- 🔐 Secure OAuth 2.0 login
 - ⚡ Real-time classification
+- 📊 Prediction history tracking
+- 🗄️ MongoDB-backed storage
 
-Tech: "Flask" "MongoDB" "Gmail API" "Scikit-learn"
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Scikit](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 
----
+[![Repo](https://img.shields.io/badge/View_Code-302b63?style=for-the-badge&logo=github)](PHISHSIREN_REPO_URL)
+[![Live](https://img.shields.io/badge/Live_Demo-24c6dc?style=for-the-badge&logo=vercel&logoColor=black)](PHISHSIREN_LIVE_URL)
 
-💼 Professional Experience
+</td>
+</tr>
+</table>
 
-🔍 Software Quality & Accessibility Engineer Intern
+<br/>
 
-Hudsmer Business Solutions
+<!-- ═══════════════ EXPERIENCE ═══════════════ -->
+## 💼 &nbsp;Career Timeline
 
-Working on software quality and accessibility across web applications.
+```text
+ 2025 ─────────●───────────────●───────────────●──────────▶ now
+               │               │               │
+        Spring Boot &      MERN Stack      Software Quality &
+        React Intern       Intern          Accessibility Intern
+                           Rampex          Hudsmer Business
+                           Technologies    Solutions
+```
 
-Focus Areas:
+<details open>
+<summary><b>🔍 Software Quality & Accessibility Engineer Intern</b> · <i>Hudsmer Business Solutions</i> · <code>Current</code></summary>
+<br/>
 
-"Testing" • "Debugging" • "Troubleshooting" • "Accessibility" • "Defect Documentation"
+Making web apps work for **everyone**. Testing, debugging, and documenting defects, with accessibility as a first-class concern.
 
-Technologies: "Claude" "ChatGPT" "Docker"
+`Testing` `Debugging` `Troubleshooting` `Accessibility` `Defect Analysis` `Docker` `Claude` `ChatGPT`
+</details>
 
----
+<details>
+<summary><b>🌐 MERN Stack Intern</b> · <i>Rampex Technologies</i></summary>
+<br/>
 
-🌐 MERN Stack Intern
+Built and deployed MERN web apps with REST APIs and responsive UI components, then debugged and optimized them for production.
 
-Rampex Technologies
+`MongoDB` `Express` `React` `Node.js` `REST APIs`
+</details>
 
-Built and deployed MERN-stack web applications involving REST APIs, responsive UI components, debugging, and optimization.
+<details>
+<summary><b>⚙️ Spring Boot & React Intern</b></summary>
+<br/>
 
----
+Connected React interfaces to Spring Boot backends: RESTful APIs, business logic, and database operations.
 
-⚙️ Spring Boot & React Intern
+`Spring Boot` `React` `REST APIs` `SQL`
+</details>
 
-Worked with RESTful APIs, React interfaces, backend logic, frontend development, and database operations.
+<br/>
 
----
+<!-- ═══════════════ PLAYER STATS ═══════════════ -->
+## 🧠 &nbsp;Problem-Solving Arena
 
-🎨 Creative Developer
+<div align="center">
 
-I believe good development isn't just about making something work.
+| 🟠 LeetCode | 🟤 CodeChef |
+|:---:|:---:|
+| **250+** solved | **150+** solved |
+| Contest rating **1697** | Rating **1081** |
 
-It's about making it:
+<sub>Focus: <code>DSA</code> · <code>OOP</code> · <code>DBMS</code> · <code>Problem Solving</code></sub>
 
-Useful → Intuitive → Accessible → Beautiful → Memorable
+<br/>
 
-My approach combines:
+<img src="https://leetcard.jacoblin.cool/PrAnaV_120001?theme=dark&font=Fira%20Code&ext=heatmap" width="80%"/>
 
-🎨 Design Thinking
-→ Understanding the user and the problem
+</div>
 
-🧩 Creative Development
-→ Turning ideas into engaging digital experiences
+<br/>
 
-💻 Engineering
-→ Building reliable and scalable solutions
+<!-- ═══════════════ ACHIEVEMENTS ═══════════════ -->
+## 🏆 &nbsp;Achievements Unlocked
 
-🧪 Quality
-→ Testing, refining, and improving the experience
+| | Achievement | Rank |
+|:-:|---|:-:|
+| 🥇 | **Best Speaker Award** · Toastmasters | Gold |
+| 🥈 | **Project Expo** · 2nd Place | Silver |
+| 🚀 | **GRiD 7.0 by Flipkart** · Semi-Finalist | Elite |
+| 🎨 | **VP, Media & Branding** · Student Leadership Council | Leader |
+| 💻 | **250+ LeetCode** & **150+ CodeChef** problems | Grinder |
 
----
+<br/>
 
-🧠 Problem Solving
+<!-- ═══════════════ CERTIFICATIONS ═══════════════ -->
+## 📚 &nbsp;Certified Badges
 
-I continuously practice Data Structures & Algorithms to strengthen my problem-solving skills.
+<div align="center">
 
-LeetCode
+![Python](https://img.shields.io/badge/Python_Basic-HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
+![AWS](https://img.shields.io/badge/Cloud_Foundation-AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![React](https://img.shields.io/badge/React.js-Codecademy-1F4056?style=for-the-badge&logo=codecademy&logoColor=white)
+![DSA](https://img.shields.io/badge/DSA_C++-Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB_Fundamentals-Infosys_Springboard-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![ARVR](https://img.shields.io/badge/AR%2FVR-Praya_Labs-6E40C9?style=for-the-badge&logo=unity&logoColor=white)
 
-250+ Problems Solved
-🏆 Contest Rating: 1697
+</div>
 
-CodeChef
+<br/>
 
-150+ Problems Solved
-🏆 Rating: 1081
+<!-- ═══════════════ CODE IDENTITY ═══════════════ -->
+## 🎯 &nbsp;Currently Exploring
 
-Focus: "DSA" "OOP" "DBMS" "Problem Solving"
-
----
-
-🏆 Achievements
-
-🥇 Best Speaker Award — Toastmasters
-
-🥈 2nd Place — Project Expo
-
-🏆 GRiD 7.0 by Flipkart — Semi-Finalist
-
-🎨 Vice President — Media & Branding, Student Leadership Council
-
-💻 250+ LeetCode Problems
-
-💻 150+ CodeChef Problems
-
----
-
-📚 Certifications
-
-- 🐍 Python (Basic) — HackerRank
-- ☁️ Cloud Foundation — AWS
-- ⚛️ React.js — Codecademy
-- 🧠 Data Structures & Algorithms (C++) — Udemy
-- 🍃 MongoDB Fundamentals — Infosys Springboard
-- 🥽 AR/VR — Praya Labs
-
----
-
-🎯 Currently Exploring
-
+```javascript
 const pranav = {
-    role: "Creative Developer",
-
-    interests: [
-        "UI/UX Design",
-        "Creative Development",
-        "Full-Stack Development",
-        "Frontend Development",
-        "Accessibility",
-        "Software Quality"
-    ],
-
-    mindset: "Design → Build → Test → Improve"
+  role: "Creative Developer",
+  fuel: ["☕ chai", "🎧 lo-fi", "🐛 a good bug hunt"],
+  exploring: ["UI/UX Design", "Creative Development", "Full-Stack", "Accessibility", "Software Quality"],
+  mindset: () => "Design → Build → Test → Improve",
+  lookingFor: "Teams that care about craft, users, and inclusive design"
 };
+```
 
----
+<br/>
 
-📊 GitHub Activity
+<!-- ═══════════════ GITHUB STATS ═══════════════ -->
+## 📊 &nbsp;GitHub Activity
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" /><img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" /></p>---
+<div align="center">
 
-🤝 Let's Connect
+<img src="https://github-readme-stats.vercel.app/api?username=pranavkarthick12&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="170"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=pranavkarthick12&theme=tokyonight&hide_border=true" height="170"/>
 
-<p align="center"><a href="mailto:pranavkarthicksk@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a><a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a><a href="YOUR_LEETCODE_URL">
-<img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-</a></p>---
+<br/>
 
-<p align="center">✨ Design with purpose. Build with creativity.
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranavkarthick12&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="150"/>
 
-Thanks for visiting my profile!
+<br/><br/>
 
-</p>
+<!-- OPTIONAL: contribution snake (needs a GitHub Action; setup steps in chat) -->
+<!-- <img src="https://raw.githubusercontent.com/pranavkarthick12/pranavkarthick12/output/github-snake-dark.svg" width="100%"/> -->
+
+</div>
+
+<br/>
+
+<!-- ═══════════════ CONNECT ═══════════════ -->
+## 🤝 &nbsp;Let's Build Something
+
+Got a wild idea, a buggy app, or an interface that needs some love? Let's talk.
+
+<div align="center">
+
+<a href="mailto:pranavkarthicksk@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/pranav-karthick-s-k-516304291"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://leetcode.com/u/PrAnaV_120001/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24c6dc,50:302b63,100:0f0c29&height=140&section=footer&text=Design%20with%20purpose.%20Build%20with%20creativity.&fontSize=20&fontColor=ffffff&fontAlignY=68" width="100%"/>
