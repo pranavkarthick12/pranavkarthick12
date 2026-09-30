@@ -254,27 +254,9 @@ Worked on frontend and backend development with a focus on scalable REST APIs an
 
 <a href="https://github.com/pranavkarthick12">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=pranavkarthick12&show_icons=true&hide_border=true&bg_color=ffffff&title_color=2563EB&text_color=374151&icon_color=2563EB&include_all_commits=true&count_private=false"
-    height="165"
-    alt="Pranav's GitHub Stats"
-  />
-</a>
-
-<a href="https://github.com/pranavkarthick12">
-  <img
     src="https://streak-stats.demolab.com/?user=pranavkarthick12&hide_border=true&background=ffffff&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=374151&dates=6B7280"
-    height="165"
-    alt="Pranav's GitHub Streak"
-  />
-</a>
-
-<br><br>
-
-<a href="https://github.com/pranavkarthick12">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranavkarthick12&layout=compact&hide_border=true&bg_color=ffffff&title_color=2563EB&text_color=374151&langs_count=8"
-    height="150"
-    alt="Pranav's Top Languages"
+    width="600"
+    alt="Pranav's GitHub Contributions"
   />
 </a>
 
