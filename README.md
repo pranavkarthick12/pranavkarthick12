@@ -10,12 +10,16 @@
 
 # Pranav Karthick S K
 
-### Creative Developer · AI-Software Engineer · Full-Stack Developer · UI/UX
+### Creative Developer · AI Automation · Software Quality · Full-Stack Developer · UI/UX
 
 Building clean interfaces, practical web applications, and better digital experiences.
 
 <br>
 
+<a href="https://portfolio-devoloper.vercel.app/">
+  <img src="https://img.shields.io/badge/Portfolio-2563EB?style=flat-square&logo=vercel&logoColor=white" />
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/pranav-karthick-s-k-516304291">
   <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&logo=linkedin&logoColor=white" />
 </a>
@@ -274,6 +278,10 @@ I'm interested in opportunities involving:
 
 <div align="center">
 
+<a href="https://portfolio-devoloper.vercel.app/">
+  Portfolio
+</a>
+&nbsp;&nbsp;•&nbsp;&nbsp;
 <a href="https://github.com/pranavkarthick12">
   GitHub
 </a>
