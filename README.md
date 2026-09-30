@@ -58,9 +58,13 @@ I'm particularly interested in:
 
 `Figma` `UI/UX` `Prototyping` `Design Systems`
 
-### Quality & Tools
+### AI & Automation
 
-`Selenium` `Docker` `Git` `GitHub` `VS Code` `AWS`
+`OpenAI` `Claude` `Gemini` `RAG` `AI Agents` `n8n` `LangChain` `Prompt Engineering`
+
+### Development Tools
+
+`Git` `GitHub` `Docker` `VS Code` `Selenium` `Vercel` `Antigravity` `AWS`
 
 ---
 
