@@ -10,7 +10,7 @@
 
 # Pranav Karthick S K
 
-### Creative Developer · Full-Stack Developer · UI/UX
+### Creative Developer · AI-Software Engineer · Full-Stack Developer · UI/UX
 
 Building clean interfaces, practical web applications, and better digital experiences.
 
