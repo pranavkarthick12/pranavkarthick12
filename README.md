@@ -28,6 +28,12 @@ Building clean interfaces, practical web applications, and better digital experi
 
 <br/><br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./breakout-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./breakout-light.svg" />
+  <img src="./breakout-dark.svg" alt="GitHub Breakout Animation" width="100%" />
+</picture>
+
 </div>
 
 ---
