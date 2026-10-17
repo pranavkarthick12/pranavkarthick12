@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="192" viewBox="0 0 850 192" fill="none">
+  <defs>
+    <!-- Dark Glass Background -->
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <!-- Light Glass Background -->
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.04"/>
+      <stop offset="50%" stop-color="#0f172a" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <!-- Subtle Static Glass Border -->
+    <linearGradient id="borderGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <linearGradient id="borderGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#0f172a" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <!-- Outer Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .card-bg {
+      fill: url(#bgDark);
+      stroke: url(#borderGradDark);
+    }
+    .text-title {
+      fill: #f0f6fc;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .text-subtitle {
+      fill: #e6edf3;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .text-body {
+      fill: #8b949e;
+      font-size: 13.5px;
+      font-weight: 400;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .text-strong {
+      fill: #c9d1d9;
+      font-weight: 600;
+    }
+    .text-accent {
+      fill: #58a6ff;
+      font-weight: 600;
+    }
+    .bullet {
+      fill: #3b82f6;
+    }
+    .row-line {
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    .orbit-beam {
+      stroke: #ffffff;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      filter: url(#glow);
+    }
+
+    @media (prefers-color-scheme: light) {
+      .card-bg {
+        fill: url(#bgLight);
+        stroke: url(#borderGradLight);
+      }
+      .text-title {
+        fill: #1f2328;
+      }
+      .text-subtitle {
+        fill: #24292f;
+      }
+      .text-body {
+        fill: #57606a;
+      }
+      .text-strong {
+        fill: #24292f;
+      }
+      .text-accent {
+        fill: #0969da;
+      }
+      .bullet {
+        fill: #2563eb;
+      }
+      .row-line {
+        stroke: #d0d7de;
+      }
+      .orbit-beam {
+        stroke: #2563eb;
+      }
+    }
+  </style>
+
+  <!-- Ambient Backdrop -->
+  <rect x="2" y="2" width="846" height="188" rx="16" fill="none" opacity="0.4" />
+
+  <!-- Glass Card Base -->
+  <rect class="card-bg" x="2" y="2" width="846" height="188" rx="16" stroke-width="1.2" />
+
+  <!-- White Orbiting Beam -->
+  <rect x="2" y="2" width="846" height="188" rx="16" fill="none"
+        class="orbit-beam" pathLength="1000"
+        stroke-dasharray="140 860">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Content -->
+  <g transform="translate(32, 28)">
+    <text x="0" y="16" class="text-title">Achievements &amp; Leadership</text><circle cx="4" cy="52" r="2.5" class="bullet" /><text x="16" y="56" class="text-body"><tspan class="text-strong">2nd Place — Thiran Hackathon / Project Expo:</tspan> Developed an application for an elephant-safety system.</text><circle cx="4" cy="80" r="2.5" class="bullet" /><text x="16" y="84" class="text-body"><tspan class="text-strong">Flipkart GRiD 7.0:</tspan> Participated and reached the semifinals.</text><circle cx="4" cy="108" r="2.5" class="bullet" /><text x="16" y="112" class="text-body"><tspan class="text-strong">Best Speaker — Toastmasters:</tspan> Recognized for public speaking and communication.</text><circle cx="4" cy="136" r="2.5" class="bullet" /><text x="16" y="140" class="text-body"><tspan class="text-strong">Vice President — Media & Branding, Student Leadership Council:</tspan> Led campus media, branding, and promotional initiatives.</text>
+  </g>
+</svg>
