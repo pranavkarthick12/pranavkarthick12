@@ -46,7 +46,20 @@ Building clean interfaces, practical web applications, and better digital experi
 
 ---
 
-<img src="./skills-card.svg" width="100%" alt="Technical Skills" />
+## Technical Skills
+
+| Category | Technologies and Skills |
+|---|---|
+| Programming Languages | JavaScript, Python, Java, C++ |
+| Frontend Development | React.js, HTML5, CSS3, Redux Toolkit |
+| Backend Development | Node.js, Express.js, Spring Boot, Flask, REST APIs |
+| Databases | MongoDB, MySQL |
+| Core Concepts | DBMS, OOP, Data Structures and Algorithms, Operating Systems |
+| AI-Assisted Development | Claude, ChatGPT, Antigravity, AI-assisted development workflows |
+| Testing & Quality | Playwright, Selenium, Accessibility Testing, Debugging |
+| Libraries | Pandas, NumPy, Scikit-learn |
+| Cloud & Deployment | AWS, Docker, Vercel |
+| Tools | Git, GitHub, VS Code |
 
 ---
 
@@ -62,7 +75,12 @@ Building clean interfaces, practical web applications, and better digital experi
 
 ---
 
-<img src="./achievements-card.svg" width="100%" alt="Achievements & Leadership" />
+## Achievements & Leadership
+
+- **2nd Place — Thiran Hackathon / Project Expo:** Developed an application for an elephant-safety system.
+- **Flipkart GRiD 7.0:** Participated and reached the semifinals.
+- **Best Speaker — Toastmasters:** Recognized for public speaking and communication.
+- **Vice President — Media & Branding, Student Leadership Council:** Led campus media, branding, and promotional initiatives.
 
 ---
 
