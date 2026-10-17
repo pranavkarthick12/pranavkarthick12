@@ -1,75 +1,248 @@
 <div align="center">
 
-<img src="./ascii.svg" width="460" alt="Andrii Drok"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:2563EB&height=190&section=header&text=Pranav%20Karthick%20S%20K&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" width="100%" alt="Pranav Karthick S K"/>
 
-<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+<br/>
+<div align="center">
 
-[andriidrok.com](https://andriidrok.com) &nbsp;·&nbsp;
-[instagram](https://www.instagram.com/andrii_drok/) &nbsp;·&nbsp;
-[linkedin](https://www.linkedin.com/in/andriidrok/) &nbsp;·&nbsp;
-[email](mailto:clb@mirasvit.com)
+<img src="./ascii.svg" width="460" alt="Pranav Karthick S K"/>
+
+</div>
+# Pranav Karthick S K
+
+### Creative Developer · Software Quality · Full-Stack Development · AI Automation · UI/UX
+
+Building clean interfaces, practical web applications, and better digital experiences.
+
+<br/>
+
+<a href="https://portfolio-devoloper.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-2563EB?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+&nbsp;
+<a href="https://www.linkedin.com/in/pranav-karthick-s-k-516304291"><img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+&nbsp;
+<a href="https://github.com/pranavkarthick12"><img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+&nbsp;
+<a href="mailto:pranavkarthicksk@gmail.com"><img src="https://img.shields.io/badge/Email-374151?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+&nbsp;
+<a href="https://leetcode.com/u/PrAnaV_120001/"><img src="https://img.shields.io/badge/LeetCode-F59E0B?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/Software_Engineering-Internship-blue?style=flat-square" alt="Software Engineering"/>
+<img src="https://img.shields.io/badge/Full--Stack-Development-2563EB?style=flat-square" alt="Full Stack Development"/>
+<img src="https://img.shields.io/badge/AI--Assisted-Development-7C3AED?style=flat-square" alt="AI Assisted Development"/>
 
 </div>
 
-<img src="./hd-about.svg" width="620" alt="about"/>
+---
 
-> CS student at San Francisco State, in the SF Bay Area.<br>
-> Small, sharp tools over big vague ideas.
+## About Me
 
-I build fast, test on real users, and kill what doesn't work. Right now that's<br>
-[autobroll](https://github.com/andriidrok1/autobroll) — an AI short-form video editor that runs in the browser. Also<br>
-deep into markets: Pine Script indicators, backtesting, on-chain data.
+I'm an Electronics and Communication Engineering student at Sri Eshwar College of Engineering, Coimbatore, with hands-on experience in software quality and accessibility testing, full-stack development, REST APIs, debugging, and AI-assisted development workflows.
 
-<img src="./hd-stack.svg" width="620" alt="stack"/>
+I enjoy building practical applications that combine good design, reliable engineering, and automation. My interests span frontend development, backend systems, software testing, and the use of AI tools throughout the software development lifecycle.
 
-<samp>python &nbsp; typescript &nbsp; javascript &nbsp; react &nbsp; node &nbsp; three.js &nbsp; fastapi &nbsp; postgres &nbsp; docker &nbsp; git &nbsp; linux</samp>
+- **Education:** B.E. Electronics and Communication Engineering (2023–2027)
+- **CGPA:** 7.6/10 through Semester VI
+- **Current Role:** Software Quality and Accessibility Engineer Intern at Hudsmer Business Solutions
+- **Focus Areas:** Full-Stack Development, Software Quality, Accessibility, and AI-Assisted Development
 
-<img src="./hd-projects.svg" width="620" alt="projects"/>
+---
 
-**[autobroll](https://github.com/andriidrok1/autobroll)** &nbsp;·&nbsp; <samp>typescript, remotion</samp><br>
-AI short-form video editor in the browser. Auto captions with accents,<br>
-drag-and-retime editing, b-roll placement: transcript in, rendered video out.
+## What I Do
 
-**[strategy-checker](https://github.com/andriidrok1/strategy-checker)** &nbsp;·&nbsp; <samp>python</samp><br>
-Describe a trading strategy in plain English, get a real backtest with<br>
-statistical validation. Exposes curve-fitting, not alpha.
+### Full-Stack Development
 
-**[compound](https://github.com/andriidrok1/compound)** &nbsp;·&nbsp; <samp>typescript, convex</samp><br>
-Autonomous research agent for your second brain. Built solo at Nozomio<br>
-Hackathon, EF SF.
+Build responsive web applications, integrate RESTful APIs, implement backend logic, and work with databases using modern development technologies.
 
-**[andriidrok.com](https://andriidrok.com)** &nbsp;·&nbsp; <samp>three.js, webgl</samp><br>
-Particle-morph portfolio: thousands of particles reshaping between scenes.
+### Software Quality & Accessibility
 
-<img src="./hd-stats.svg" width="620" alt="stats"/>
+Test applications, investigate accessibility issues, troubleshoot defects, document findings, and support quality validation workflows.
+
+### AI-Assisted Development & Automation
+
+Explore AI-assisted software development using Claude, ChatGPT, and Antigravity to support implementation, debugging, testing, and repeatable quality checks.
+
+### Frontend & UI/UX
+
+Develop responsive interfaces with React and modern web technologies, with an interest in usability, interface consistency, and clean visual design.
+
+---
+
+## Technical Skills
+
+| Category | Technologies and Skills |
+|---|---|
+| Programming Languages | JavaScript, Python, Java, C++ |
+| Frontend Development | React.js, HTML5, CSS3, Redux Toolkit |
+| Backend Development | Node.js, Express.js, Spring Boot, Flask, REST APIs |
+| Databases | MongoDB, MySQL |
+| Core Concepts | DBMS, OOP, Data Structures and Algorithms, Operating Systems |
+| AI-Assisted Development | Claude, ChatGPT, Antigravity, AI-assisted development workflows |
+| Testing & Quality | Playwright, Selenium, Accessibility Testing, Debugging |
+| Libraries | Pandas, NumPy, Scikit-learn |
+| Cloud & Deployment | AWS, Docker, Vercel |
+| Tools | Git, GitHub, VS Code |
+
+---
+
+## Selected Projects
+
+### 1. AI-Powered Interview Assistant
+
+**Technologies:** React, Redux Toolkit, Ant Design
+
+Built an interview simulation platform designed to support structured technical interview practice.
+
+- Resume parsing for personalized interview experiences.
+- Timed interview sessions.
+- Automated interview scoring.
+- Separate interfaces for different user roles.
+- Responsive dashboard and user interface.
+
+### 2. PhishSiren — Phishing & Spam Detection
+
+**Technologies:** Flask, Scikit-learn, Gmail API, MongoDB
+
+Developed a web application focused on detecting phishing and spam messages using a trained machine learning model.
+
+- Integrated Gmail using OAuth 2.0.
+- Implemented message classification.
+- Maintained prediction history using MongoDB.
+- Developed a web-based message analysis interface.
+
+### 3. Pachyderm Partner — Elephant Safety System
+
+**Technologies:** ESP32, HC-05 Bluetooth, Mobile App
+
+Developed an elephant-safety solution using an ESP32-based wearable and Bluetooth-controlled vibration alerts to support mahout safety.
+
+- ESP32-based hardware implementation.
+- Bluetooth communication through HC-05.
+- Mobile application integration.
+- Safety-focused alert automation.
+
+---
+
+## Professional Experience
+
+### Software Quality and Accessibility Engineer Intern
+
+**Hudsmer Business Solutions | Present**
+
+- Test and troubleshoot software quality and PDF/web accessibility issues.
+- Investigate defects, document findings, and support engineering follow-up.
+- Develop and improve technical tools using AI-assisted workflows and Antigravity.
+- Work on repeatable checks, debugging, and quality validation.
+
+**Tools:** Claude, ChatGPT, Antigravity, Docker, Vercel, Playwright, Selenium.
+
+### MERN Stack Intern
+
+**RAMPeX Technologies | January 2024**
+
+- Built and deployed two MERN-stack web applications.
+- Developed responsive UI components and REST APIs.
+- Worked with MongoDB, Express.js, React, and Node.js.
+- Supported debugging and application optimization.
+
+### Spring Boot and React Intern
+
+**July 2025**
+
+- Developed and integrated RESTful APIs using Spring Boot and React.
+- Worked on backend logic and frontend implementation.
+- Gained practical experience with database operations and application integration.
+
+---
+
+## Certifications
+
+- **Data Analytics Essentials** — Cisco Networking Academy | 8 June 2026
+- **Python Essentials** — Cisco Networking Academy | 10 July 2026
+- **Python (Basic)** — HackerRank | 2025
+- **Cloud Foundation** — AWS | 2025
+- **React.js** — Codecademy | 2025
+- **Data Structures and Algorithms (C++)** — Udemy | 2025
+- **MongoDB Fundamentals** — Infosys Springboard | 2025
+
+---
+
+## Achievements & Leadership
+
+- **2nd Place — Thiran Hackathon / Project Expo:** Developed an application for an elephant-safety system.
+- **Flipkart GRiD 7.0:** Participated and reached the semifinals.
+- **Best Speaker — Toastmasters:** Recognized for public speaking and communication.
+- **Vice President — Media & Branding, Student Leadership Council:** Led campus media, branding, and promotional initiatives.
+
+---
+
+## Problem Solving
 
 <div align="center">
 
-<img src="./streak.svg" width="620" alt="Current and longest streak"/>
+<a href="https://leetcode.com/u/PrAnaV_120001/">
+<img src="https://leetcard.jacoblin.cool/PrAnaV_120001?theme=dark&font=Baloo&ext=heatmap" width="500" alt="LeetCode profile and activity"/>
+</a>
 
-<img src="./langs.svg" width="620" alt="Top languages by bytes and by repo"/>
+<br/><br/>
 
-<img src="./year.svg" width="620" alt="The last year, one character per day"/>
+<a href="https://leetcode.com/u/PrAnaV_120001/"><img src="https://img.shields.io/badge/LeetCode-250%2B_Problems-F59E0B?style=flat-square&logo=leetcode&logoColor=white" alt="250+ LeetCode problems"/></a>
+&nbsp;
+<a href="https://github.com/pranavkarthick12"><img src="https://img.shields.io/badge/Contest_Rating-1697-2563EB?style=flat-square" alt="LeetCode contest rating"/></a>
+&nbsp;
+<img src="https://img.shields.io/badge/CodeChef-150%2B_Problems-795548?style=flat-square&logo=codechef&logoColor=white" alt="150+ CodeChef problems"/>
 
 </div>
 
-<img src="./hd-about-this-page.svg" width="620" alt="about this page"/>
+I regularly practice Data Structures and Algorithms to strengthen problem-solving skills and improve my understanding of programming fundamentals.
 
-Every graphic here is generated, not embedded from anyone else's server.<br>
-`ascii.svg` is a photo pushed through a character ramp by<br>
-[`scripts/make_portrait.py`](scripts/make_portrait.py); the stat graphics and<br>
-these section headings are drawn by [a scheduled action](.github/workflows/stats.yml)<br>
-straight from the GitHub GraphQL API, once a day, committing only what changed.
+---
 
-They animate with SMIL inside the SVG, because GitHub strips scripts from<br>
-READMEs — and since nothing loads from a third party, nothing here can<br>
-rate-limit or go dark. The headings are SVGs for the same reason: GitHub also<br>
-strips CSS, so an image is the only way to put this page's own typeface on them.
+## GitHub Activity
 
-The typeface is [JetBrains Mono](scripts/fonts), subset to just the characters<br>
-each graphic draws and inlined as base64. That isn't only for looks: the<br>
-portrait's grid assumes an advance width of exactly 0.600 em, and a viewer whose<br>
-default monospace is narrower would otherwise see it squeezed.
+<div align="center">
 
-Language totals cover public repositories only. `year.svg` uses the portrait's<br>
-character ramp: `:` `+` `#` `@`, quiet to loud.
+<a href="https://github.com/pranavkarthick12">
+<img src="https://streak-stats.demolab.com/?user=pranavkarthick12&theme=dark&hide_border=true" width="600" alt="GitHub contribution streak"/>
+</a>
+
+<br/><br/>
+
+<a href="https://github.com/pranavkarthick12?tab=repositories">
+<img src="https://img.shields.io/badge/Explore_My_Repositories-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub repositories"/>
+</a>
+
+</div>
+
+---
+
+## Currently Exploring
+
+`AI Automation` · `AI-Assisted Development` · `REST APIs` · `Advanced React` · `Software Testing` · `Accessibility` · `Cloud & Deployment`
+
+---
+
+## Let's Connect
+
+I'm interested in opportunities involving full-stack development, software engineering, frontend development, AI-assisted development, and software quality engineering.
+
+<div align="center">
+
+<a href="https://portfolio-devoloper.vercel.app/">Portfolio</a>
+&nbsp; • &nbsp;
+<a href="https://github.com/pranavkarthick12">GitHub</a>
+&nbsp; • &nbsp;
+<a href="https://www.linkedin.com/in/pranav-karthick-s-k-516304291">LinkedIn</a>
+&nbsp; • &nbsp;
+<a href="mailto:pranavkarthicksk@gmail.com">Email Me</a>
+
+<br/><br/>
+
+<a href="mailto:pranavkarthicksk@gmail.com">pranavkarthicksk@gmail.com</a>
+
+<br/><br/>
+
+<i>Building at the intersection of design, development, and automation.</i>
+
+</div>
