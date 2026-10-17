@@ -22,7 +22,7 @@ Building clean interfaces, practical web applications, and better digital experi
 &nbsp;
 <a href="https://github.com/pranavkarthick12"><img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
 &nbsp;
-<a href="mailto:pranavkarthicksk@gmail.com"><img src="https://img.shields.io/badge/Email-374151?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=pranavkarthicksk@gmail.com"><img src="https://img.shields.io/badge/Email-374151?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
 &nbsp;
 <a href="https://leetcode.com/u/PrAnaV_120001/"><img src="https://img.shields.io/badge/LeetCode-F59E0B?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode"/></a>
 
@@ -235,11 +235,7 @@ I'm interested in opportunities involving full-stack development, software engin
 &nbsp; • &nbsp;
 <a href="https://www.linkedin.com/in/pranav-karthick-s-k-516304291">LinkedIn</a>
 &nbsp; • &nbsp;
-<a href="mailto:pranavkarthicksk@gmail.com">Email Me</a>
-
-<br/><br/>
-
-<a href="mailto:pranavkarthicksk@gmail.com">pranavkarthicksk@gmail.com</a>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=pranavkarthicksk@gmail.com">Email Me</a>
 
 <br/><br/>
 
