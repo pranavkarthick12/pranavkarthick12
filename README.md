@@ -38,16 +38,7 @@ Building clean interfaces, practical web applications, and better digital experi
 
 ---
 
-## About Me
-
-I'm an Electronics and Communication Engineering student at Sri Eshwar College of Engineering, Coimbatore, with hands-on experience in software quality and accessibility testing, full-stack development, REST APIs, debugging, and AI-assisted development workflows.
-
-I enjoy building practical applications that combine good design, reliable engineering, and automation. My interests span frontend development, backend systems, software testing, and the use of AI tools throughout the software development lifecycle.
-
-- **Education:** B.E. Electronics and Communication Engineering (2023–2027)
-- **CGPA:** 7.6/10 through Semester VI
-- **Current Role:** Software Quality and Accessibility Engineer Intern at Hudsmer Business Solutions
-- **Focus Areas:** Full-Stack Development, Software Quality, Accessibility, and AI-Assisted Development
+<img src="./about-card.svg" width="100%" alt="About Me" />
 
 ---
 

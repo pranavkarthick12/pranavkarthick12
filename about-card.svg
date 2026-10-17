@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="340" viewBox="0 0 850 340" fill="none">
+  <defs>
+    <!-- Dark Glass Gradient -->
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+
+    <!-- Light Glass Gradient -->
+    <linearGradient id="bgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.04"/>
+      <stop offset="50%" stop-color="#0f172a" stop-opacity="0.015"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.03"/>
+    </linearGradient>
+
+    <!-- Subtle Static Glass Border -->
+    <linearGradient id="borderGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <linearGradient id="borderGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#0f172a" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.12"/>
+    </linearGradient>
+
+    <!-- Outer Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .card-bg {
+      fill: url(#bgDark);
+      stroke: url(#borderGradDark);
+    }
+    .text-title {
+      fill: #f0f6fc;
+      font-size: 20px;
+      font-weight: 700;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .text-body {
+      fill: #8b949e;
+      font-size: 13.5px;
+      font-weight: 400;
+      line-height: 1.55;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .text-strong {
+      fill: #c9d1d9;
+      font-weight: 600;
+    }
+    .bullet {
+      fill: #3b82f6;
+    }
+    .orbit-beam {
+      stroke: #ffffff;
+      stroke-width: 2.2;
+      stroke-linecap: round;
+      filter: url(#glow);
+    }
+
+    @media (prefers-color-scheme: light) {
+      .card-bg {
+        fill: url(#bgLight);
+        stroke: url(#borderGradLight);
+      }
+      .text-title {
+        fill: #1f2328;
+      }
+      .text-body {
+        fill: #57606a;
+      }
+      .text-strong {
+        fill: #24292f;
+      }
+      .bullet {
+        fill: #2563eb;
+      }
+      .orbit-beam {
+        stroke: #2563eb;
+      }
+    }
+  </style>
+
+  <!-- Ambient Backdrop Glow Behind the Glass -->
+  <rect x="2" y="2" width="846" height="336" rx="16" fill="none" opacity="0.4" />
+
+  <!-- Glass Card Base -->
+  <rect class="card-bg" x="2" y="2" width="846" height="336" rx="16" stroke-width="1.2" />
+
+  <!-- White Orbiting Beam (Perimeter = 2*(846+336) - 8*16 + 2*PI*16 ≈ 2339) -->
+  <!-- pathLength="1000" allows exact percentage dasharray math -->
+  <rect x="2" y="2" width="846" height="336" rx="16" fill="none"
+        class="orbit-beam" pathLength="1000"
+        stroke-dasharray="140 860">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="6s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Card Content -->
+  <g transform="translate(32, 28)">
+    <!-- Header: About Me -->
+    <text x="0" y="16" class="text-title">About Me</text>
+
+    <!-- Paragraph 1 -->
+    <text x="0" y="52" class="text-body">
+      I'm an Electronics and Communication Engineering student at Sri Eshwar College of Engineering, Coimbatore, with hands-on
+    </text>
+    <text x="0" y="74" class="text-body">
+      experience in software quality and accessibility testing, full-stack development, REST APIs, debugging, and AI-assisted workflows.
+    </text>
+
+    <!-- Paragraph 2 -->
+    <text x="0" y="114" class="text-body">
+      I enjoy building practical applications that combine good design, reliable engineering, and automation. My interests span frontend
+    </text>
+    <text x="0" y="136" class="text-body">
+      development, backend systems, software testing, and the use of AI tools throughout the software development lifecycle.
+    </text>
+
+    <!-- Bullet 1: Education -->
+    <circle cx="4" cy="183" r="3" class="bullet" />
+    <text x="18" y="188" class="text-body">
+      <tspan class="text-strong">Education:</tspan> B.E. Electronics and Communication Engineering (2023–2027)
+    </text>
+
+    <!-- Bullet 2: CGPA -->
+    <circle cx="4" cy="215" r="3" class="bullet" />
+    <text x="18" y="220" class="text-body">
+      <tspan class="text-strong">CGPA:</tspan> 7.6/10 through Semester VI
+    </text>
+
+    <!-- Bullet 3: Current Role -->
+    <circle cx="4" cy="247" r="3" class="bullet" />
+    <text x="18" y="252" class="text-body">
+      <tspan class="text-strong">Current Role:</tspan> Software Quality and Accessibility Engineer Intern at Hudsmer Business Solutions
+    </text>
+
+    <!-- Bullet 4: Focus Areas -->
+    <circle cx="4" cy="279" r="3" class="bullet" />
+    <text x="18" y="284" class="text-body">
+      <tspan class="text-strong">Focus Areas:</tspan> Full-Stack Development, Software Quality, Accessibility, and AI-Assisted Development
+    </text>
+  </g>
+</svg>
