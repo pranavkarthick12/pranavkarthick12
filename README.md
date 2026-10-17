@@ -28,10 +28,6 @@ Building clean interfaces, practical web applications, and better digital experi
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Software_Engineering-Internship-blue?style=flat-square" alt="Software Engineering"/>
-<img src="https://img.shields.io/badge/Full--Stack-Development-2563EB?style=flat-square" alt="Full Stack Development"/>
-<img src="https://img.shields.io/badge/AI--Assisted-Development-7C3AED?style=flat-square" alt="AI Assisted Development"/>
-
 </div>
 
 ---
