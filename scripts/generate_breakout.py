@@ -2,7 +2,7 @@
 """
 Generate GitHub Breakout SVG animation with a fully populated active brick wall.
 Simulates a classic breakout game across GitHub contribution grid dimensions
-with smooth paddle tracking and authentic block destruction.
+with smooth paddle tracking and authentic block destruction across the entire width.
 """
 
 import json
@@ -14,7 +14,7 @@ import urllib.request
 from datetime import datetime
 
 PADDING = 15
-PADDLE_WIDTH = 80
+PADDLE_WIDTH = 75
 PADDLE_HEIGHT = 10
 PADDLE_RADIUS = 5
 PADDLE_BRICK_GAP = 100
@@ -26,45 +26,22 @@ BRICK_RADIUS = 3
 
 ANIMATE_STEP = 1
 SECONDS_PER_FRAME = 1.0 / 30.0
-MAX_FRAMES = 1200
-BALL_SPEED = 9.0
+MAX_FRAMES = 850
+BALL_SPEED = 10.0
 
 # GitHub palette
 GITHUB_DARK = ["#151B23", "#033A16", "#196C2E", "#2EA043", "#56D364"]
 GITHUB_LIGHT = ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
 
 def fetch_or_generate_grid(username, token=None):
-    """
-    Fetch contribution weeks or generate a full vibrant grid of active blocks.
-    To ensure the breakout wall is dense and engaging (not empty), we guarantee
-    every brick position has a green level (1-4).
-    """
     weeks_count = 53
     days_per_week = 7
-    
-    # Deterministic generation for reproducible aesthetic pattern
     rng = random.Random(42)
     grid = []
-    
-    # Try fetching real data as base pattern if available
-    real_levels = {}
-    try:
-        url = f"https://github-contributions-api.jogruber.de/v4/{username}?y=last"
-        req = urllib.request.Request(url, headers={"User-Agent": "Breakout-Generator"})
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-            for item in data.get("contributions", []):
-                dt = datetime.strptime(item["date"], "%Y-%m-%d")
-                gh_day = (dt.weekday() + 1) % 7
-                real_levels[item["date"]] = item.get("level", 0)
-    except Exception:
-        pass
 
     for c in range(weeks_count):
         week = []
         for r in range(days_per_week):
-            # Choose a vibrant green level (1, 2, 3, or 4) so all blocks are active and breakable
-            # Add subtle natural clustering for realistic contribution aesthetic
             level_weights = [0.25, 0.35, 0.25, 0.15]
             lvl = rng.choices([1, 2, 3, 4], weights=level_weights)[0]
             week.append({
@@ -83,11 +60,10 @@ def circle_rect_collision(circle_x, circle_y, radius, rect_x, rect_y, rect_w, re
     return (dx * dx + dy * dy) <= (radius * radius)
 
 def simulate(bricks, canvas_w, canvas_h, paddle_y):
-    # Start ball near center-bottom with dynamic angle
     ball_x = canvas_w / 2.0
-    ball_y = canvas_h - 28.0
+    ball_y = canvas_h - 30.0
 
-    launch_angle = -math.pi / 3.2
+    launch_angle = -math.pi / 4.0
     ball_vx = BALL_SPEED * math.cos(launch_angle)
     ball_vy = BALL_SPEED * math.sin(launch_angle)
 
@@ -100,7 +76,7 @@ def simulate(bricks, canvas_w, canvas_h, paddle_y):
         if not has_targets:
             break
 
-        # Paddle follows ball smoothly, centered directly beneath the ball trajectory
+        # Move paddle dynamically to follow the ball across the entire canvas width
         paddle_x = max(
             PADDING,
             min(canvas_w - PADDING - PADDLE_WIDTH, ball_x - PADDLE_WIDTH / 2.0)
@@ -120,13 +96,8 @@ def simulate(bricks, canvas_w, canvas_h, paddle_y):
 
         # Paddle bounce
         ball_next_bottom = ball_y + ball_vy + BALL_RADIUS
-        if ball_vy > 0 and ball_next_bottom >= paddle_y and (ball_y + BALL_RADIUS <= paddle_y + 4):
-            # Add dynamic angle variance depending on where it hits the paddle
-            hit_offset = (ball_x - (paddle_x + PADDLE_WIDTH / 2.0)) / (PADDLE_WIDTH / 2.0)
-            hit_offset = max(-0.9, min(0.9, hit_offset))
-            bounce_angle = -math.pi / 2.0 + (hit_offset * math.pi / 3.0)
-            ball_vx = BALL_SPEED * math.cos(bounce_angle)
-            ball_vy = BALL_SPEED * math.sin(bounce_angle)
+        if ball_vy > 0 and ball_next_bottom >= paddle_y and (ball_y + BALL_RADIUS <= paddle_y):
+            ball_vy = -abs(ball_vy)
             ball_y = paddle_y - BALL_RADIUS
 
         # Brick collisions
@@ -209,7 +180,6 @@ def generate_breakout_svg(weeks, is_dark=True, paddle_color="#2563EB", ball_colo
             brick_uses.append(f'<use href="#brick" x="{b["x"]}" y="{b["y"]}" fill="{orig_col}" opacity="1"/>')
         else:
             t = first_zero / max(1, (total_frames - 1))
-            # Smoothly break the block on collision (turns to background grid level or disappears)
             key_times = f"0;{t:.4f};{t:.4f};1"
             brick_uses.append(
                 f'<use href="#brick" x="{b["x"]}" y="{b["y"]}" fill="{orig_col}">'
@@ -245,9 +215,8 @@ def main():
     token = os.environ.get("GITHUB_TOKEN")
     out_dir = os.environ.get("OUT_DIR", ".")
 
-    print(f"Generating full active green contribution grid...")
+    print("Generating full active green contribution grid...")
     weeks = fetch_or_generate_grid(username, token)
-    print(f"Generated {len(weeks)} weeks of active blocks.")
 
     print("Generating breakout-dark.svg...")
     dark_svg = generate_breakout_svg(weeks, is_dark=True, paddle_color="#2563EB", ball_color="#2563EB")
@@ -261,7 +230,7 @@ def main():
     with open(light_path, "w", encoding="utf-8") as f:
         f.write(light_svg)
 
-    print("Successfully generated breakout SVGs with full active block grid!")
+    print("Successfully regenerated breakout SVGs with full wide paddle tracking!")
 
 if __name__ == "__main__":
     main()
