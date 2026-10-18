@@ -151,21 +151,25 @@ def generate_what_i_do():
 
     <!-- 1. Full-Stack Development -->
     <text x="0" y="56" class="text-subtitle">Full-Stack Development</text>
-    <text x="0" y="78" class="text-body">Build responsive web applications, integrate RESTful APIs, implement backend logic, and work with databases using modern development technologies.</text>
+    <text x="0" y="78" class="text-body">Build responsive web applications, integrate RESTful APIs, implement backend logic,</text>
+    <text x="0" y="98" class="text-body">and work with databases using modern development technologies.</text>
 
     <!-- 2. Software Quality & Accessibility -->
-    <text x="0" y="120" class="text-subtitle">Software Quality &amp; Accessibility</text>
-    <text x="0" y="142" class="text-body">Test applications, investigate accessibility issues, troubleshoot defects, document findings, and support quality validation workflows.</text>
+    <text x="0" y="140" class="text-subtitle">Software Quality &amp; Accessibility</text>
+    <text x="0" y="162" class="text-body">Test applications, investigate accessibility issues, troubleshoot defects, document findings,</text>
+    <text x="0" y="182" class="text-body">and support quality validation workflows.</text>
 
     <!-- 3. AI-Assisted Development & Automation -->
-    <text x="0" y="184" class="text-subtitle">AI-Assisted Development &amp; Automation</text>
-    <text x="0" y="206" class="text-body">Explore AI-assisted software development using Claude, ChatGPT, and Antigravity to support implementation, debugging, testing, and repeatable quality checks.</text>
+    <text x="0" y="224" class="text-subtitle">AI-Assisted Development &amp; Automation</text>
+    <text x="0" y="246" class="text-body">Explore AI-assisted software development using Claude, ChatGPT, and Antigravity to support</text>
+    <text x="0" y="266" class="text-body">implementation, debugging, testing, and repeatable quality checks.</text>
 
     <!-- 4. Frontend & UI/UX -->
-    <text x="0" y="248" class="text-subtitle">Frontend &amp; UI/UX</text>
-    <text x="0" y="270" class="text-body">Develop responsive interfaces with React and modern web technologies, with an interest in usability, interface consistency, and clean visual design.</text>
+    <text x="0" y="308" class="text-subtitle">Frontend &amp; UI/UX</text>
+    <text x="0" y="330" class="text-body">Develop responsive interfaces with React and modern web technologies, with an interest in</text>
+    <text x="0" y="350" class="text-body">usability, interface consistency, and clean visual design.</text>
     """
-    return make_glass_svg(850, 330, content, orbit_dur="6s")
+    return make_glass_svg(850, 410, content, orbit_dur="6.5s")
 
 def generate_skills():
     rows = [
